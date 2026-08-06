@@ -435,7 +435,7 @@ export default function CommunityBoard() {
                   onChange={e => setForm(f => ({ ...f, location: e.target.value }))}
                   className="cb-focus font-display text-sm px-3 py-2 rounded-xl border bg-white"
                   style={{ borderColor: LINE }}
-                  placeholder="Town Square, Main St"
+                  placeholder="Civic Plaza, Central Ave."
                 />
               </label>
 
@@ -447,7 +447,7 @@ export default function CommunityBoard() {
                   rows={3}
                   className="cb-focus font-display text-sm px-3 py-2 rounded-xl border bg-white resize-none"
                   style={{ borderColor: LINE }}
-                  placeholder="What should neighbors know?"
+                  placeholder="What are the deets?"
                 />
               </label>
 
