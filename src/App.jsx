@@ -304,7 +304,7 @@ export default function CommunityBoard() {
           </div>
         ) : posts.length === 0 ? (
           <div className="font-display text-sm py-16 text-center flex flex-col items-center gap-4" style={{ color: INK_SOFT }}>
-            <p>The board is empty. Be the first to post — or load a few sample notices to see how it looks.</p>
+            <p>The board is empty. Be the first to post — or load the sample notices!</p>
             <button
               onClick={loadSampleData}
               className="cb-focus font-display text-sm font-semibold px-4 py-2 rounded-full border"
