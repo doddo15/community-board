@@ -215,10 +215,12 @@ export default function CommunityBoard() {
         <div className="max-w-5xl mx-auto px-5 sm:px-8 py-6 flex items-start justify-between gap-4">
           <div>
             <h1 className="font-display font-extrabold text-2xl sm:text-3xl" style={{ color: INK }}>
-              Commons
+              ABQ Community Commons
             </h1>
             <p className="font-display text-sm sm:text-base mt-1" style={{ color: INK_SOFT }}>
-              What's happening around the neighborhood — no likes, no feed, just the board.
+              Our goal is to establish a free, safe place where a connected community can share knowledge, events, and other happenings. 
+              We want to create these tools so that they are not dependent on data hungry mega-corporations. 
+              We do not seek your time, money, or attention. Go build a better world beyond the computer.
             </p>
           </div>
           <button
