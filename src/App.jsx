@@ -61,7 +61,7 @@ const SAMPLE_POSTS = [
     id: 'seed-4',
     title: 'Whats up with our AC?',
     type: 'notice',
-    date: Date.now(), 
+    date: '2026-08-06', 
     time: 'All day',
     location: 'Our home',
     description: 'Something in our AC sounds weird and this is just a test notice.',
